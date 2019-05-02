@@ -1,3 +1,13 @@
+---
+layout: default
+title: Home
+---
 <html>
-<h1>Well, this is cool</h1>
+    <head>
+        <title>{{ page.title }}</title>
+    </head>
+
+    <body>
+        <h1>{{ "Well, this is cool" | downcase}}</h1>
+    </body>
 </html>
