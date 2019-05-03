@@ -1,6 +1,6 @@
 ---
 layout: default
 title: About
+permalink: /about
 ---
-# About page
-Hi!
+Lorem ipsum about stuff
