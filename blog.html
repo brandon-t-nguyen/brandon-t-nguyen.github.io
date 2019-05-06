@@ -6,7 +6,7 @@ permalink: /blog
 {% for post in site.posts %}
     <div class='post-box'>
         <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-        <p>{{ post.date | date_to_string }} - {{ post.author }}</p>
+        <p>{{ post.date | date_to_string }}{% if post.author != "Brandon Nguyen" %} - {{ post.author }}{% endif %}</p>
         <hr>
         {{ post.excerpt }}
         <p><a href="{{ post.url }}">[show more]</a></p>

@@ -6,6 +6,11 @@ body {
     color: $color-text;
 }
 
+a {
+    color: $color-accent;
+}
+
+
 nav {
     display: inline-block;
     font-size: 1.5em;
