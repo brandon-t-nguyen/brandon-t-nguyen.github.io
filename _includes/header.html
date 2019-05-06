@@ -1,9 +1,15 @@
 <div class="header">
     <div style="display: inline;">
-        
+
         <div style="display: flex; align-items: flex-end;">
             <h1 style="margin-top: 0px; margin-bottom: 0px; font-size: 5em">btn.dev</h1>
-            <h2 style="margin-top: 0px; margin-bottom: 0px; ">Brandon Nguyen</h2>
+            <h2 style="margin-top: 0px; margin-bottom: 0px; ">
+            {% if page.url == "/blog" or page.is_post %}
+            Brandon's Bytes
+            {% else %}
+            Brandon Nguyen
+            {% endif %}
+            </h2>
         </div>
         
         <div style="">

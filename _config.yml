@@ -1,0 +1,7 @@
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts   # only true for posts
+    values:
+      is_post: true # true for all posts
