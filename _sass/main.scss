@@ -69,3 +69,12 @@ nav {
         border-bottom: medium solid $color-text;
     }
 }
+
+.post-box-anim {
+    @extend .post-box;
+    transition: background-color .25s;
+    -webkit-transition: background-color .25s;
+    &:hover {
+        background-color: $color-element2;
+    }
+}
