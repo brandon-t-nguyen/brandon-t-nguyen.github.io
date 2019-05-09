@@ -1,8 +1,6 @@
 ---
 layout: default
-title: About
-permalink: /about
+title: Home
+permalink: /
 ---
 {% include_relative intro.md %}
-
-\<elaborate more here\>
