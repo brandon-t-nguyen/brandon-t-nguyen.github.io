@@ -50,7 +50,8 @@ nav {
 
 .post-box {
     margin: 10px auto;
-    padding: 10px;
+    padding: 10px 30px;
+    width: 50%;
 
     background-color: $color-element1;
 
@@ -76,9 +77,4 @@ nav {
     &:hover {
         background-color: $color-element2;
     }
-}
-
-.content {
-    margin: auto;
-    width: 50%;
 }
