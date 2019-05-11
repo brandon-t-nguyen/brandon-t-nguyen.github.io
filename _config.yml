@@ -1,7 +1,10 @@
 permalink: pretty
 defaults:
-  -
-    scope:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
       path: ""
       type: posts   # only true for posts
     values:
