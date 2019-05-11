@@ -7,6 +7,9 @@ permalink: /blog
     <div class='post-box-anim'>
         <h1><a href="{{ post.url }}" class='post-title'>{{ post.title }}</a></h1>
         <p>{{ post.date | date_to_string }}{% if post.author != "Brandon Nguyen" %} - {{ post.author }}{% endif %}</p>
+        {% if post.last_mod %}
+        <p><i>Last modified {{ post.last_mod | date_to_string }}</i></p>
+        {% endif %}
         <hr>
         {{ post.excerpt }}
 

@@ -4,6 +4,9 @@ layout: default
 <div class='post-box'>
 <h1>{{ page.title }}</h1>
 <p>{{ page.date | date_to_string }}{% if page.author != "Brandon Nguyen" %} - {{ page.author }}{% endif %}</p>
+{% if page.last_mod %}
+<p><i>Last modified {{ page.last_mod | date_to_string }}</i></p>
+{% endif %}
 <hr>
 
 {{ content }}
