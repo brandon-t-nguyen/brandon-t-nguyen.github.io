@@ -33,5 +33,6 @@ permalink: /blog
         {% if post.excerpt != post.content %}
         <p><a href="{{ post.url }}">[...]</a></p>
         {% endif %}
+        <a href="{{ post.url }}"><span class="click"></span></a>
     </div>
 {% endfor %}
