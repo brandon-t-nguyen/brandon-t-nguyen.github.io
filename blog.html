@@ -5,7 +5,24 @@ permalink: /blog
 ---
 {% for post in site.posts %}
     <div class='post-box-anim'>
-        <h1><a href="{{ post.url }}" class='post-title'>{{ post.title }}</a></h1>
+        <h1>
+            <a href="{{ post.url }}" class='post-title'>
+            {{ post.title }}
+            </a>
+        </h1>
+        {% if post.categories %}
+        <p>
+            <i>
+            {% for cat in post.categories %}
+                {% if cat != "blog" %}
+                    {{ cat | capitalize}}
+                    {% if forloop.last == false %} > {% endif %}
+                {% endif %}
+            {% endfor %}
+            </i>
+        </p>
+        {% endif %}
+
         <p>{{ post.date | date_to_string }}{% if post.author != "Brandon Nguyen" %} - {{ post.author }}{% endif %}</p>
         {% if post.last_mod %}
         <p><i>Last modified {{ post.last_mod | date_to_string }}</i></p>
