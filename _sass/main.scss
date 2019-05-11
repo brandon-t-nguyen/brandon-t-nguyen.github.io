@@ -10,6 +10,21 @@ a {
     color: $color-accent;
 }
 
+code {
+    font-family: 'Share Tech Mono', monospace;
+    padding: 0px 3px;
+    background-color: $color-back;
+}
+
+pre {
+    padding: 10px;
+    background-color: $color-back;
+    overflow: auto;
+
+    code {
+        padding: 0; // cancel the out-of-pre padding
+    }
+}
 
 nav {
     display: inline-block;
