@@ -85,7 +85,7 @@ endmodule
 ```
 
 Now let's write a basic testbench which will increment the counter 32 times.
-Create a file named `counter_test.v` and open it.
+Create a file named `test_counter.v` and open it.
 ```
 `timescale 1ns/100ps // 1 ns time unit, 100 ps resolution
 
@@ -189,6 +189,12 @@ test: $(BIN)
 
 clean:
 	rm -f *.vvp *.vcd
+```
+
+Now you can run the `test` target:
+
+```shell
+$ make test
 ```
 
 After you run the compiled file, you will get the prints from the `$monitor()` call in the testbench.
