@@ -9,8 +9,7 @@ excerpt_separator: <!--more-->
 
 *This post is a copy from my old website and blog. I have kept its original post date.*
 
-<!-- TODO link -->
-Around the time I posted Technical Interview with Nvidia,
+Around the time I posted [Technical Interview with Nvidia](/blog/life/work/2018/03/09/nvidia_interview),
 I had actually gone to a site visit for the CSE (Computer Science and Engineering) department at UMich,
 which I was invited to as an accepted Ph.D student.
 
