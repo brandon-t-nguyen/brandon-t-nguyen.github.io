@@ -4,7 +4,8 @@
         <div style="display: flex; align-items: flex-end;">
             <h1 style="margin-top: 0px; margin-bottom: 0px; font-size: 5em">brng.dev</h1>
             <h2 style="margin-top: 0px; margin-bottom: 0px; ">
-            {% if {{page.url | slice: 0,5}} == "/blog" %}
+            {% capture stem %}{{page.url | slice: 0,5}}{% endcapture %}
+            {% if stem == "/blog" %}
             Brandon's Bytes
             {% else %}
             Brandon Nguyen
