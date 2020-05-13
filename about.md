@@ -15,5 +15,5 @@ how complex these drivers can be over these three summers.
 
 I enjoy working on personal projects, especially if they involve low-level components
 like hardware and drivers, and am currently working on a better toolchain for
-the LC-3 educational ISA. Besides technical stuff, I enjoy competitive shooting
-like multi-gun and IDPA, and have recently begun participating in HEMA (Historical European Martial Arts).
+the LC-3 educational ISA. Besides the technical stuff I enjoy sport shooting
+(e.g. multi-gun and IDPA), HEMA (Historical European Martial Arts), and modern fencing.
